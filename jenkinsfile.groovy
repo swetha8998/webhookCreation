@@ -4,6 +4,7 @@ git branch: 'branch1', url: 'git@github.com:swetha8998/webhookCreation.git'
 }
 stage( "build" ){
 sh 'echo "in building stage"'
+sh 'echo "hi" '
 }
 stage ( "approve"){
 sh 'echo "in approval stage" '
