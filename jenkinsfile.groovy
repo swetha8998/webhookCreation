@@ -1,6 +1,6 @@
 node{
 stage( "git"){
-git branch: 'branch1', url: 'git@github.com:swetha8998/webhookCreation.git'
+git branch: 'master', url: 'https://github.com/swetha8998/webhookCreation.git'
 }
 stage( "build" ){
 sh 'echo "in building stage"'
